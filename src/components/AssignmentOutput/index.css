@@ -1,0 +1,80 @@
+.x {
+  background-color: #3367d6;
+  height: 34px;
+  width: 567px;
+  display: flex;
+  justify-content: space-evenly;
+  align-self: space-evenly;
+}
+.whiteCard {
+  background-color: white;
+  box-shadow: 2px 2px 2px rgba(0 0 0 0.3px);
+  height: 50vh;
+  width: 50vw;
+}
+
+.history-img {
+  height: 25px;
+  width: 89px;
+  margin-top: 6px;
+}
+.search-img {
+  height: 25px;
+  width: 25px;
+  margin-top: 6px;
+}
+input {
+  height: 23px;
+  width: 256px;
+  margin-top: 6px;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.orders {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.logo {
+  height: 26px;
+  width: 26px;
+  margin: 13px;
+}
+.in-a-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.para {
+  color: #64748b;
+  font-size: 11px;
+}
+.heading {
+  color: black;
+  font-size: 19px;
+  margin: 10px;
+}
+
+.deleteIcon {
+  height: 20px;
+  width: 20px;
+  margin-left: 39px;
+}
+.delete {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+}

@@ -1,7 +1,6 @@
 import AssignmentOutput from './components/AssignmentOutput'
 import './App.css'
 
-// These are the list used in the application. You can move them to any component needed.
 const initialHistoryList = [
   {
     id: 0,
@@ -77,7 +76,6 @@ const initialHistoryList = [
   },
 ]
 
-// Replace your code here
 const App = () => <AssignmentOutput initialHistoryList={initialHistoryList} />
 
 export default App
